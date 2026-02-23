@@ -1,5 +1,5 @@
 body p { font-family: "Arial"; }
-body { background-color: black; color: white; padding: 20px; }
+body { background-color: black; color: white; padding: 20px; width: 1000px; }
 .test {
     padding: 10px;
     border: 4px double white;
@@ -7,3 +7,5 @@ body { background-color: black; color: white; padding: 20px; }
     width: 400px;
 }
 button { padding: 7px; background-color: lightgrey; color: black; cursor: pointer; }
+.container-left { float: left; }
+.container-right { float: right; }
