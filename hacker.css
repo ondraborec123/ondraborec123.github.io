@@ -18,7 +18,7 @@ a { color: lime; text-decoration: none; }
 a:hover { text-decoration: underline;}
 dd { margin-left: 20px; }
 dd:before { content: "- "; }
-hr { border: 1px solid darkgrey; }
+hr { border: 1px solid grey; }
 
 /* header */
 .header {
