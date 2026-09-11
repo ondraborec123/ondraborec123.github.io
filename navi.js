@@ -3,6 +3,6 @@ document.querySelector(".nav").innerHTML = `
 <dl>
 	<dt>Main pages</dt>
 	<dd><a href="/">Home page</a></dd>
-	<dd><a href="/">About</a></dd>
+	<dd><a href="/blankpage.html">About</a></dd>
 </dl>
 `;

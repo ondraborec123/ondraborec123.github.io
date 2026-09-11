@@ -1,20 +1,16 @@
 /* fonts */
 @font-face {
-    font-family: Speed;
-    src: url('/fonts/speed_rusher.ttf');
-}
-::selection {
-  background-color: lightgreen;
-  color: black;
+    font-family: IGS;
+    src: url('/fonts/igs.woff');
 }
 /* main things */
 body {
-    font-family: monospace;
-    background-color: black;
-	color: #01aa18;
+    font-family: IGS;
+    background-color: #9a9996;
+	color: black;
 }
-h1, h2, h3, h4 { font-family: Speed; color: #1ebc33; }
-a { color: lime; text-decoration: none; }
+h1, h2, h3, h4 { font-family: IGS, Times, serif; color: black; }
+a { color: blue; text-decoration: none; }
 a:hover { text-decoration: underline;}
 dd { margin-left: 20px; }
 dd:before { content: "- "; }
@@ -26,18 +22,18 @@ hr { border: 1px solid darkgrey; }
     height: 70px;
     padding: 3px;
     border-bottom: none;
-    background-image: url('/images/hacker.png');
+    background-image: url('/images/95.png');
 }
 
 /* themechooser */
 .themechooser { padding-bottom: 2px; }
 .themechooser button {
-	font-family: monospace;
+	font-family: IGS;
 	border: none;
-	color: #01aa18;
+	color: blue;
 	font-size: small;
 	cursor: pointer;
-	background-color: black;
+	background-color: #9a9996;
 }
 .themechooser button:hover { text-decoration: underline; }
 
@@ -46,8 +42,9 @@ hr { border: 1px solid darkgrey; }
 	position: absolute;
 	left: 620px;
 	padding: 4px;
-	border: 3px double #01aa18;
+	border: 3px outset black;
 	border-left: none;
+	background-color: #aaaaaa;
 }
 
  /* article */
@@ -55,7 +52,8 @@ hr { border: 1px solid darkgrey; }
     width: 600px;
     padding: 3px;
     min-height: 500px;
-    border: 3px double #01aa18;
+    border: 3px outset black;
+    background-color: #aaaaaa;
 }
 
 /* footer */
