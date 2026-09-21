@@ -17,7 +17,7 @@ h1, h2, h3, h4 { font-family: Speed; color: #1ebc33; }
 a { color: lime; text-decoration: none; }
 a:hover { text-decoration: underline;}
 dd { margin-left: 20px; }
-dd:before { content: "- "; }
+dd:before { content: ":~$ "; }
 hr { border: 1px solid grey; }
 
 /* header */

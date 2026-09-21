@@ -1,0 +1,90 @@
+/* fonts */
+@font-face {
+    font-family: vista;
+    src: url('/fonts/segoeui.ttf') format('truetype');
+}
+/* main things */
+body {
+    font-family: vista;
+    background-image: url('/images/vista.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	color: black;
+	width: 790px;
+}
+h1, h2, h3, h4 { font-family: vista; color: black; }
+a { color: blue; text-decoration: none; }
+a:hover { text-decoration: underline;}
+dd { margin-left: 20px; }
+dd:before { content: "- " }
+hr { border: 1px solid grey; }
+
+/* header */
+.header {
+    width: 600px;
+    height: 70px;
+    padding: 3px;
+    border-bottom: none;
+    background-image: url('/images/vistatop.png');
+}
+
+/* themechooser */
+.themechooser {
+    padding: 0px 5px 5px 5px;
+    background-color: rgba(145, 218, 255, 0.42);
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    width: 823px;
+    box-shadow: /*0 4px 8px 0 rgba(0, 0, 0, 0.2),*/ 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(1px);
+}
+.themechooser button {
+	font-family: vista;
+	border: none;
+	color: black;
+	font-size: small;
+	cursor: pointer;
+	border: 1px solid rgb(80,80,80);
+	border-radius: 0px 0px 5px 5px;
+	border-top: none;
+	background: #BFBFBF;
+	background: linear-gradient(0deg, rgba(191, 191, 191, 1) 0%,rgba(231, 231, 231, 1) 100%)
+}
+.themechooser button:hover { text-decoration: none; }
+
+/* nav */
+.nav {
+	position: absolute;
+	left: 630px;
+	padding: 4px;
+	border: 8px solid rgba(145, 218, 255, 0.42);
+	border-left: none;
+    background-clip: padding-box;
+	background-color: #eeeeee;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ /* article */
+.article {
+    width: 600px;
+    padding: 3px;
+    min-height: 500px;
+    border: 8px solid rgba(145, 218, 255, 0.42);
+    background-clip: padding-box;
+    background-color: #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* footer */
+.footer {
+	width: 622px;
+	display:flex;
+	justify-content: center;
+	color: white;
+	background-color: rgba(145, 218, 255, 0.42);
+    /*border: 1px solid rgba(0, 0, 0, 0.42);*/
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
